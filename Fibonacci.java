@@ -15,7 +15,6 @@ class Fibonacci {
             i0 += i1;
             i1 = tmp;
             numbers.add(i0);
-            System.out.println(i0);
         }
 
         return new Fibonacci(numbers);
