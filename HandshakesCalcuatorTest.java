@@ -7,11 +7,11 @@ public class HandshakesCalcuatorTest {
 
     @Test
     public void test() {
-        int handshakes0 = handshakesCalcuator.calculateFor(0);
-        int handshakes1 = handshakesCalcuator.calculateFor(1);
-        int handshakes2 = handshakesCalcuator.calculateFor(2);
-        int handshakes3 = handshakesCalcuator.calculateFor(3);
-        int handshakes4 = handshakesCalcuator.calculateFor(4);
+        long handshakes0 = handshakesCalcuator.calculateFor(0);
+        long handshakes1 = handshakesCalcuator.calculateFor(1);
+        long handshakes2 = handshakesCalcuator.calculateFor(2);
+        long handshakes3 = handshakesCalcuator.calculateFor(3);
+        long handshakes4 = handshakesCalcuator.calculateFor(4);
 
         Assert.assertEquals(0, handshakes0);
         Assert.assertEquals(0, handshakes1);

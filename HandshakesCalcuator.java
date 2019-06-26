@@ -1,6 +1,6 @@
 class HandshakesCalcuator {
 
-    int calculateFor(int peopleCount) {
-        return (int) ((peopleCount - 1.0) / 2.0 * peopleCount);
+    long calculateFor(int peopleCount) {
+        return (long) ((peopleCount - 1.0) / 2.0 * peopleCount);
     }
 }
